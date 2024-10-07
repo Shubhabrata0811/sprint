@@ -1,0 +1,16 @@
+3 8
+seq_location:51 seq_length:3 cycle_location:100 cycle_length:5 ex_cell:0
+will_print:5 zero seq_length valid_print
+3 stop
+valid_print:5 print_counter cycle_length prepare_prepare_print_inst
+stop:9
+prepare_prepare_print_inst:1 seq_location seq_counter source_location
+1 cycle_location print_counter dest_location
+print_instruction:7 source_location:0 dest_location:0
+update_counters:1 print_counter one print_counter
+1 seq_counter one seq_counter
+valid_seq_counter:5 seq_counter seq_length jmp
+0 0 seq_counter
+jmp:3 valid_print
+print_counter:0 seq_counter:0 one:1 zero:0
+0 1 2 3 4 5 6

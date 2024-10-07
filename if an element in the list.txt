@@ -1,0 +1,22 @@
+3 7
+first_element:35 length:5 target:2 result:0
+
+copy_first_cell_loc:7 first_element comparing_cell
+
+cal_cell_upto+1:1 length first_element cell_upto+1
+
+check_valid_cell:5 comparing_cell cell_upto+1 jump_to_compare
+
+stop:9
+
+jump_to_compare:4 target comparing_cell:35 mk_result_1
+
+move_comparing_cell:1 comparing_cell one comparing_cell
+
+goto_check_valid_cell:3 check_valid_cell
+
+mk_result_1:0 1 result
+9
+cell_upto+1:35 one:1
+
+1 2 3 4 5
