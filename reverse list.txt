@@ -1,0 +1,22 @@
+3 5 
+first_element_location:56
+length:4
+take_initial_locations:7 first_element_location swap1
+
+1 first_element_location length swap2
+2 swap2 one swap2
+
+valid_swap:5 swap1 swap2 put_locations
+stop:9
+put_locations:7 swap1 loc1
+7 swap2 loc2
+7 swap1 loc3
+7 swap2 loc4
+swapping:7 loc1:62 swap3
+7 loc2:62 loc3:62
+7 swap3 loc4:62
+update_swaps:1 swap1 one swap1
+2 swap2 one swap2
+3 valid_swap
+swap1:62 swap2:62 swap3:0 one:1
+1 2 3 4 5

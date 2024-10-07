@@ -1,0 +1,11 @@
+3 5
+first_element_location:100 n:5
+check_current<n:5 current n comprise_instruction
+stop:9
+comprise_instruction:1 first_element_location current loc1
+print_the_term:7 current_term loc1:0
+1 current_term next_term next_term
+2 next_term current_term current_term
+1 current one current
+3 check_current<n
+current:0 current_term:0 next_term:1 one:1
